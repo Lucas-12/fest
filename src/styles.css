@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(/img/fest1.jpg);
+}
+
+.titulo{
+    background-color: rgba(255, 255, 255, .5);
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.portada{
+    margin-top: 10px;
+}
+
+.slider{
+    height: 500px;
+}
+
+.info{
+    position: flex;
+    background-color: white;
+    padding-right: 0;
+    font-size: 20px;
+    margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.info p{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.card{
+    background-color: rgba(255, 255, 255, .5);
+    font-family: 'Roboto', sans-serif;
+}
+
+.textoContacto{
+    font-size: 30px;
+    padding-left: 150px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.redesContacto{
+    padding-left: 70px;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.redesContacto a{
+    margin-top: 10px;
+    border-top: 3px solid black; 
+    color: black;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+footer{
+    background-color: rgba(255, 255, 255, .5);
+    margin-top: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer .footerImg{
+    height: 30px;
+}
+
+footer .telefono{
+    font-size: 20px;
+    color: black;
+}
+
+footer .iconos{
+    margin-top: 3px; 
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
+footer i{
+    
+    color: black;
+}
+

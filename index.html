@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--slider-->
+    <link rel="stylesheet" href="jquery.bxslider.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="/src/styles.css">
+    <!--GoogleFonts-->
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <!-- Animate CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/296ea6cf27.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="row titulo">
+            <div class="col-12">
+                <img src="/img/nombre.png" alt="name">
+            </div>
+        </div>
+        <div class="row portada">
+            <div class="col-md-12">
+                <div id="portada">
+                    <img class="slider" src="img/fest2.jpg" alt="a">
+                    <img class="slider" src="img/fest.jpg" alt="fiesta">
+                    <img class="slider" src="img/fest1.jpg" alt="fiesta">
+                </div>
+            </div>
+        </div>
+        <div class="row info">
+                <img class="col-3" src="/img/foto.jpg" alt="foto">
+                <p class="col-9">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam, molestias temporibus nobis iure provident, error consequatur rerum unde saepe harum, ex tempora recusandae repellat sequi dolor ea fugiat dicta omnis ut officia corrupti labore blanditiis consectetur? Itaque facilis magni nesciunt nisi veniam consectetur eius blanditiis delectus, officiis distinctio expedita quae error explicabo officia autem dolore repellat optio, earum hic totam provident ipsa, commodi adipisci! Temporibus illo quasi earum vel expedita repellendus dicta. Odio, ab veniam assumenda laboriosam aspernatur quas!</p>
+        </div>
+        <div class="row info">
+                <p class="col-9">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam, molestias temporibus nobis iure provident, error consequatur rerum unde saepe harum, ex tempora recusandae repellat sequi dolor ea fugiat dicta omnis ut officia corrupti labore blanditiis consectetur? Itaque facilis magni nesciunt nisi veniam consectetur eius blanditiis delectus, officiis distinctio expedita quae error explicabo officia autem dolore repellat optio, earum hic totam provident ipsa, commodi adipisci! Temporibus illo quasi earum vel expedita repellendus dicta. Odio, ab veniam assumenda laboriosam aspernatur quas!</p>
+                <img class="col-3" src="/img/foto.jpg" alt="foto">
+        </div>
+        <div class="row">
+            <div class="col-4 card">
+                <form action="enviar.php" method="post" class="card-body">
+                    <h2 class="card-header text-center">CONTACTO</h2>
+                    <input class="form-control mt-1" type="text" name="nombre" placeholder="Nombre">
+                    <input class="form-control mt-1" type="text" name="correo" placeholder="Correo" required>
+                    <input class="form-control mt-1" type="text" name="telefono" placeholder="Telefono" required>
+                    <textarea class="form-control mt-1" name="mensaje" placeholder="Escriba aqui su mensaje"></textarea>
+                    <button class="btn btn-danger mt-1 form-control" type="submit"> EVNVIAR</button>
+                </form>
+            </div>
+            <div class="col-8">
+                <p class="textoContacto">
+                    Para confirmarle a Juli que vas a ir a su cumple
+                    podes llenar el formulario de la izquierda, o avisarle a través de sus redes sociales.
+                </p>
+                <div class="redesContacto">
+                    <a href="#" class="animated bounce"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="animated bounce"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="animated bounce"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">    
+            <footer class="col-12">
+                <img class="footerImg" src="img/nombreFooter.png" alt="nombre">
+                <div class="telefono">
+                    <i class="fab fa-whatsapp"></i>
+                    (011) 3366 3366
+                    <i class="fas fa-phone-square-alt"></i>
+                </div>
+                <div class="iconos">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fas fa-envelope"></i></a>
+                </div>
+            </footer>
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="/src/jquery.bxslider.min.js"></script>
+    <script src="/src/logic.js"></script>
+</body>
+</html>
